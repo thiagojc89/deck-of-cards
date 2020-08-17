@@ -1,0 +1,5 @@
+$(".card")
+.draggable()
+.draggable("option", "snap", true)
+.draggable("option", "snapMode", "outer")
+.draggable({ refreshPositions: true })
